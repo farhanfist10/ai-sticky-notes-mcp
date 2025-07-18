@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ai-sticky-notes": {
+      "command": "python",
+      "args": [
+        "-m", 
+        "mcp.server.fastmcp",
+        "/path/to/your/ai-sticky-notes-mcp/main.py"
+      ],
+      "env": {
+        "PYTHONPATH": "/path/to/your/ai-sticky-notes-mcp"
+      }
+    }
+  }
+}
